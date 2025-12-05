@@ -12,4 +12,6 @@ func main() {
     // = altera o valor da variável
     fmt.Println(num_bytes)
 
+    // zaun = 2 //Meu deus quem é ele! o language server contou, mas o compilador não rodou
+    // fmt.Println(zaun)
 }

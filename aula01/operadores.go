@@ -25,15 +25,15 @@ func main(){
     potencia := a^2
     fmt.Println("Potência: ",potencia);
     binario := 0b0010
-    fmt.Println("Binários: ",binario);
+    fmt.Printf("Binários: %08b\n",binario);
     binario = binario << 2  //desloca 2 bits à esquerda
-    fmt.Println("Binários: ",binario);
+    fmt.Printf("Binários: %08b\n",binario);
     binario = binario >> 2  //desloca 2 bits à direita
-    fmt.Println("Binários: ",binario);
+    fmt.Printf("Binários: %08b\n",binario);
 
     booleano := 0b1010 &^ 0b0111 //um nand muito do feio, não entendi direito
     fmt.Printf("Booleano: %08b\n",booleano) //
-    //tem a notação do += também, válida para TODAS as operações acima
+    //tem a notação do += também, válida para TODAS as operações acima, ex: +=, -=, /=, *=, etc.
     booleano &^= 0b1010 // olha que horror
     fmt.Printf("Booleano: %08b\n",booleano)
 
