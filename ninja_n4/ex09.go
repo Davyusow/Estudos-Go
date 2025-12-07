@@ -15,5 +15,11 @@ func main() {
         fmt.Println(i,v)
     }
 
+    delete(pessoas,"Lima_Ciclano")
+    println()
+
+    for i,v := range pessoas {
+        fmt.Println(i,v)
+    }
 
 }
